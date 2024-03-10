@@ -1,0 +1,27 @@
+.containerArticle {
+    padding: 5% 7% 5% 7%;
+    min-height: calc(100vh - 75px - 25px);
+
+    background-color: #EFF6FE;
+}
+
+.titleArticle {
+    font-size: 2rem;
+    font-weight: bold;
+
+    color: #253452;
+}
+
+.descriptionArticle {
+    font-size: 1.3rem;
+    font-weight: bold;
+
+    color: #253452;
+}
+
+.contentArticle {
+    font-size: 1rem;
+    font-weight: bold;
+
+    color: #253452;
+}

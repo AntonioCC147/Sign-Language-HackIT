@@ -1,0 +1,117 @@
+.footerContainer {
+    min-height: 100vh;
+
+    padding: 5% 10% 5% 10%;
+
+    background-image: url("../../assets/images/footerBackground.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.formCard {
+    width: 90%;
+    height: 600px;
+
+    padding: 10%;
+    
+    border-radius: 10px 100px / 120px;
+
+    background-color: #2A70ED;
+}
+
+.titleFormContact {
+    text-align: center;
+
+    font-size: 2rem;
+    font-weight: bolder;
+
+    color: #FFFFFF
+}
+
+.titleBoxContact {
+    text-align: left !important;
+
+    font-size: 1.2rem;
+
+    color: #FFFFFF
+}
+
+.title1Contact {
+    font-size: 2.5rem;
+    font-weight: bolder;
+
+    color: #253452;
+}
+
+.title2Contact {
+    text-align: left;
+
+    font-size: 1rem;
+
+    color: #898989;
+}
+
+.title3Contact {
+    text-align: center;
+
+    font-size: 1.2rem;
+    font-weight: bold;
+
+    color: #253452;
+}
+
+.linkFooter {
+    display: block;
+
+    text-align: center;
+    
+    font-size: 1rem;
+
+    color: #a4a4a4;
+}
+
+.contactCard {
+    margin-top: 5% !important;
+    margin-bottom: 5% !important;
+
+    min-height: 100px;
+
+    border-radius: 30px;
+
+    background-color: #EFF6FE;
+}
+
+.titleContactCard {
+    margin-left: 10px;
+    margin-top: 25px;
+
+    text-align: left;
+
+    font-size: 1.7rem;
+    font-weight: bold;
+
+    color: #253452;
+}
+
+.iconContact {
+    width: 50px;
+
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+}
+
+.copyRight {
+    text-align: left;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+@media only screen and (max-width: 570px) {
+    .iconContact {
+       margin-top: 0px;
+    }
+}

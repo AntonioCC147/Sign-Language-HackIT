@@ -1,0 +1,94 @@
+.section2Container {
+    min-height: 100vh;
+
+    padding: 5% 10% 5% 10%;
+
+    background-color: #EFF6FE;
+}
+
+.title1Section2 {
+    text-align: center;
+
+    font-size: 2.5rem;
+    font-weight: bolder;
+
+    color: #253452;
+}
+
+.title2Section2 {
+    margin-top: 15px;
+    text-align: center;
+
+    font-size: 1rem;
+
+    color: #898989;
+}
+
+.containerBox {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cardBox {
+    margin: 15px;
+    padding: 30px;
+
+    width: 350px;
+    height: 300px;
+
+    text-align: left;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 2px rgb(240, 240, 240);
+
+    background-color: #FFFFFF;
+    transition: background-color 0.3s ease;
+}
+
+.cardBox2 {
+    margin: 15px;
+    padding: 30px;
+
+    width: 350px;
+    height: 600px;
+
+    text-align: left;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 2px rgb(240, 240, 240);
+
+    background-color: #FFFFFF;
+    transition: background-color 0.3s ease;
+}
+
+.cardBox:hover {
+    background-color: #2A70ED;
+}
+
+.cardTitle {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-align: left;
+
+    color: #293651;
+}
+
+.cardDescription {
+    font-size: 1rem;
+    text-align: justify;
+
+    color: #646787;
+}
+
+.cardBox:hover .cardTitle {
+    color: #FFFFFF;
+}
+
+.cardBox:hover .cardDescription {
+    color: #FFFFFF;
+}
+
+.imageCard {
+    margin-bottom: 20px;
+
+    width: 60px;
+}

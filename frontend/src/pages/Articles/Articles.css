@@ -1,0 +1,38 @@
+.article-list {
+	padding: 5% 7% 5% 7%;
+	min-height: calc(100vh - 75px - 25px);
+
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;	
+	column-gap: 1vw;
+	row-gap: 1vh;
+
+	background-color: #EFF6FE;
+}
+
+.element {
+	width: 20vw;
+	height: 20vh;
+	background-color: gainsboro;
+}
+
+.containerBoxArticles {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cardBoxArticles {
+    margin: 15px;
+    padding: 30px;
+
+    width: 350px;
+    height: 300px !important;
+
+    text-align: left;
+    border-radius: 5px;
+    box-shadow: 0 0 2px 2px rgb(240, 240, 240);
+
+    background-color: #FFFFFF;
+    transition: background-color 0.3s ease;
+}

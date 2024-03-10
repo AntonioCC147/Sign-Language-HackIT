@@ -1,0 +1,43 @@
+.section1Container {
+    min-height: 100vh;
+
+    padding: 5% 10% 5% 10%;
+
+    background-color: #FFFFFF;
+}
+
+.title1Section1 {
+    font-size: 2rem;
+    font-weight: bolder;
+
+    color: #253452;
+}
+
+.title2Section1 {
+    font-size: 1rem;
+    text-align: justify;
+
+    color: #898989;
+}
+
+.title3Section1 {
+    font-size: 1.3rem;
+    font-weight: bold;
+
+    color: #383838;
+}
+
+.title4Section1 {
+    font-size: 1rem;
+    text-align: justify;
+
+    color: #242424;
+}
+
+.Section1Image {
+    width: 75%;
+}
+
+.section1IconImage {
+    width: 100px;
+}
